@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Profile | Moodify</title>
+  <link rel="stylesheet" href="mood-deatils.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="header-left">
+        <img src="moodify-logo.png" alt="Moodify Logo" class="logo" />
+      </div>
+      <ul>
+        <li><a href="project.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="favorites.html">Favorites</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="register.html">Register</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="profile-container">
+    <h2>Welcome, <span id="userName">User</span>!</h2>
+    
+    <div class="profile-info">
+      <p><strong>Email:</strong> <span id="userEmail">Not provided</span></p>
+      <p><strong>Member Since:</strong> <span id="memberSince">Loading...</span></p>
+    </div>
+  
+    <div class="profile-section">
+      <h3>Your Mood Statistics 🌈</h3>
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div id="time">Total Moods Selected</div>
+          <div id="totalMoods">0</div>
+        </div>
+        <div class="stat-card">
+          <div id="time">Most Frequent Mood</div>
+          <div id="topMood">N/A</div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="profile-section">
+      <h3>Listening Patterns 🎧</h3>
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div id="time">Morning Listener</div>
+          <div id="morningCount">0</div>
+        </div>
+        <div class="stat-card">
+          <div id="time">Night Owl</div>
+          <div id="eveningCount">0</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="profile.js"></script>
+</body>
+</html>
